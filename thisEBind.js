@@ -2,6 +2,7 @@ const pessoa ={      // a variavel pessoa do tipo constante recebe um objeto
     saudacao :  'Bom dia !',         // dentro do objeto criado uma saudação
                                      // criado dentro do objeto uma função  
     falar(){console.log(this.saudacao)} // usando a palavra this para acessar o atributo saudação do objeto em questão 
+    // a palavra this aponta para o objeto Pessoa
 } 
 
 pessoa.falar()

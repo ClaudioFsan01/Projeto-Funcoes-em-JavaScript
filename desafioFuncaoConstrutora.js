@@ -37,9 +37,9 @@ p3.falar()
 
 // Desafio de criar uma função construtora com a mesma ideia da classe Pessoa acima
 
-// criando uma função construtora e atribuindo a const pessoa
+// criando uma função Factory 
 const pessoa = nome =>{
-    return { // função construtora cria e retorna um objeto
+    return { // função Factory cria e retorna um objeto
         // criado um atributo falar que recebe uma função anonima arrow
         falar : ()=> console.log(nome)
     }
